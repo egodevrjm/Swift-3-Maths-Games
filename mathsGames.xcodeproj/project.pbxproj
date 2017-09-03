@@ -12,6 +12,8 @@
 		70E10C1B1F5C17F60085A1C9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 70E10C191F5C17F60085A1C9 /* Main.storyboard */; };
 		70E10C1D1F5C17F60085A1C9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 70E10C1C1F5C17F60085A1C9 /* Assets.xcassets */; };
 		70E10C201F5C17F60085A1C9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 70E10C1E1F5C17F60085A1C9 /* LaunchScreen.storyboard */; };
+		70E10C281F5C43A10085A1C9 /* TimesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70E10C271F5C43A10085A1C9 /* TimesViewController.swift */; };
+		70E10C2A1F5C5F240085A1C9 /* MinusViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70E10C291F5C5F240085A1C9 /* MinusViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		70E10C1C1F5C17F60085A1C9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		70E10C1F1F5C17F60085A1C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		70E10C211F5C17F60085A1C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		70E10C271F5C43A10085A1C9 /* TimesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimesViewController.swift; sourceTree = "<group>"; };
+		70E10C291F5C5F240085A1C9 /* MinusViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MinusViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,8 @@
 			children = (
 				70E10C151F5C17F60085A1C9 /* AppDelegate.swift */,
 				70E10C171F5C17F60085A1C9 /* ViewController.swift */,
+				70E10C271F5C43A10085A1C9 /* TimesViewController.swift */,
+				70E10C291F5C5F240085A1C9 /* MinusViewController.swift */,
 				70E10C191F5C17F60085A1C9 /* Main.storyboard */,
 				70E10C1C1F5C17F60085A1C9 /* Assets.xcassets */,
 				70E10C1E1F5C17F60085A1C9 /* LaunchScreen.storyboard */,
@@ -138,7 +144,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				70E10C181F5C17F60085A1C9 /* ViewController.swift in Sources */,
+				70E10C281F5C43A10085A1C9 /* TimesViewController.swift in Sources */,
 				70E10C161F5C17F60085A1C9 /* AppDelegate.swift in Sources */,
+				70E10C2A1F5C5F240085A1C9 /* MinusViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,7 +272,7 @@
 				DEVELOPMENT_TEAM = 895Q7MTPTC;
 				INFOPLIST_FILE = mathsGames/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = uk.egodev.mathsGames;
+				PRODUCT_BUNDLE_IDENTIFIER = uk.egodev.simpleMathsFun;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -277,7 +285,7 @@
 				DEVELOPMENT_TEAM = 895Q7MTPTC;
 				INFOPLIST_FILE = mathsGames/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = uk.egodev.mathsGames;
+				PRODUCT_BUNDLE_IDENTIFIER = uk.egodev.simpleMathsFun;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -302,6 +310,7 @@
 				70E10C261F5C17F60085A1C9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
